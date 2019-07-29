@@ -13,8 +13,8 @@ import com.ksc.util.StringUtils;
 
 public class KSCMonitorClientTest {
 	private static final Logger log = Logger.getLogger(KSCMonitorClientTest.class);
-	private AWSCredentials credentials = new BasicAWSCredentials("AKLTWo5i_elrTUa5mPthJpEUEg",
-			"OPTBA7o1ozT0RMw9FUf3zcFQnHfKPO8exNtNlHNG44d5zoBK4OfdbkfasZSDbNCbnw==");
+	private AWSCredentials credentials = new BasicAWSCredentials("dfdfgfgfdgfdgdfgfdgfgg",
+			"gfgfdgfdgfdhfhNlHNG44d5zoBK4OfdbkfasZSDbNCbnw==");
 	@Test
 	public void getMetricStatistics(){
 		GetMetricStatisticsRequest request=new GetMetricStatisticsRequest();
